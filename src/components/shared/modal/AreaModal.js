@@ -56,13 +56,11 @@ export default function Modal({ show, setShow, deskData }) {
   }
   function handleNamePMChange(event) {
     setNamePM(event.target.value);
+    if (fullDay) {
+      setNameAM(event.target.value);
+    }
   }
   function handleFullDayChange(event) {
-    if (fullDay) {
-      setNamePM('');
-    } else {
-      setNamePM(nameAM);
-    }
     setFullDay(!fullDay);
   }
   function handleCancel(event) {

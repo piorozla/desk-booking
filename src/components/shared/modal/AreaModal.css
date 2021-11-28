@@ -69,6 +69,7 @@
   cursor: text;
   transition: all 200ms ease-in;
   background-color: #ffffff;
+  user-select: none;
 }
 
 .form__input:focus ~ .form__label,
