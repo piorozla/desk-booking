@@ -1,0 +1,3 @@
+<svg id="map" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 500">
+  <path id="outline" stroke="black" strokeWidth="5" d="M5 5 H1000 V50 H1495 V495 H50 V150 H5 Z" fill="none" />
+</svg>

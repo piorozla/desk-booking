@@ -1,0 +1,19 @@
+.button-wrapper {
+  background: transparent;
+  border-radius: 0.25rem;
+  border: 1px solid black;
+  box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: 700;
+  height: 2rem;
+  margin: 0.25rem;
+  outline: none;
+  position: relative;
+  transition: all 0.1s ease;
+  width: 5rem;
+}
+.button-wrapper:active {
+  background: black;
+  color: white;
+}

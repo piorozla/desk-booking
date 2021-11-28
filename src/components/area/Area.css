@@ -1,0 +1,13 @@
+#area-wrapper {
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+#area-wrapper h2 {
+  text-align: center;
+  margin: 0 1rem 1rem 1rem;
+}
+#area-wrapper svg {
+  max-height: 60vh;
+}
