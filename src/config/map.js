@@ -58,7 +58,7 @@ export const config = {
   },
   asset: {
     color: '#f2020282',
-    displayName: 'asset',
+    displayName: 'Asset',
     start: {
       x: 150,
       y: 150,
@@ -68,5 +68,122 @@ export const config = {
       height: 130,
     },
     desks: Array.from(Array(40).keys()).map((n) => n + 82),
+  },
+  gis: {
+    color: '#f7ff1abf',
+    displayName: 'GIS',
+    start: {
+      x: 480,
+      y: 150,
+    },
+    size: {
+      width: 320,
+      height: 130,
+    },
+    desks: Array.from(Array(47).keys()).map((n) => n + 123),
+  },
+  ecom: {
+    color: '#2df50082',
+    displayName: 'ECOM',
+    start: {
+      x: 810,
+      y: 150,
+    },
+    size: {
+      width: 160,
+      height: 130,
+    },
+    desks: Array.from(Array(24).keys()).map((n) => n + 171),
+  },
+  trade: {
+    color: '#f5000061',
+    displayName: 'Trade',
+    start: {
+      x: 150,
+      y: 350,
+    },
+    size: {
+      width: 80,
+      height: 130,
+    },
+    desks: Array.from(Array(4).keys()).map((n) => n + 195),
+  },
+  product: {
+    color: '#f5d80069',
+    displayName: ['Product', 'SM,LT,GJ,AMc'],
+    start: {
+      x: 240,
+      y: 350,
+    },
+    size: {
+      width: 160,
+      height: 130,
+    },
+    desks: Array.from(Array(26).keys()).map((n) => n + 199),
+  },
+  hr: {
+    color: '#00f5f582',
+    displayName: ['Human', 'Resources'],
+    start: {
+      x: 410,
+      y: 350,
+    },
+    size: {
+      width: 100,
+      height: 130,
+    },
+    desks: Array.from(Array(8).keys()).map((n) => n + 225),
+  },
+  mktg: {
+    color: '#04f50082',
+    displayName: 'Mktg',
+    start: {
+      x: 520,
+      y: 350,
+    },
+    size: {
+      width: 160,
+      height: 130,
+    },
+    desks: Array.from(Array(16).keys()).map((n) => n + 232),
+  },
+  mktg2: {
+    color: '#04f50082',
+    displayName: 'Mktg',
+    start: {
+      x: 780,
+      y: 350,
+    },
+    size: {
+      width: 160,
+      height: 130,
+    },
+    desks: Array.from(Array(27).keys()).map((n) => n + 248),
+  },
+  comms: {
+    color: '#f58b0082',
+    displayName: 'Comms',
+    start: {
+      x: 690,
+      y: 350,
+    },
+    size: {
+      width: 80,
+      height: 130,
+    },
+    desks: Array.from(Array(2).keys()).map((n) => n + 246),
+  },
+  finance: {
+    color: '#e0f500b5',
+    displayName: 'Finance',
+    start: {
+      x: 950,
+      y: 350,
+    },
+    size: {
+      width: 160,
+      height: 130,
+    },
+    desks: Array.from(Array(26).keys()).map((n) => n + 270),
   },
 };
